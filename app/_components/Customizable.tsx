@@ -16,7 +16,7 @@ const Customizable = () => {
         </p>
       </div>
 
-      <div className=" mt-16 rounded-md  items-center justify-center relative overflow-hidden flex flex-col antialiased">
+      <div className=" mt-16 rounded-md  items-center justify-center relative overflow-hidden flex flex-col antialiased w-full">
         <InfiniteMovingCards
           items={testimonials}
           direction="right"
