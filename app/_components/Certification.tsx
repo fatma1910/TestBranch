@@ -5,7 +5,7 @@ import { Scan } from 'lucide-react'
 
 const Certification = () => {
   return (
-    <div className='py-[93px] flex flex-col justify-center items-center mx-3'>
+    <div className='py-[93px] flex flex-col justify-center items-center mx-3 overflow-hidden'>
         <Title mainTitle='Certification Transparency' description='Benefits of having certificate data on the' span={'Blockchain'} />
 
         <div className='mt-32'>

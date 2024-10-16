@@ -4,7 +4,7 @@ import { Scan } from 'lucide-react'
 
 const StartSec = () => {
   return (
-    <div className='gradient  h-[358px] overflow-hidden'>
+    <div className='gradient  min-h-[358px] overflow-hidden pb-7'>
     <div className=' flex items-center justify-center  '>
         <div className='flex flex-col items-center justify-center gap-6'>
         <Title mainTitle='' description='Start with TestBranch certificates today for ' span={'FREE'} />
