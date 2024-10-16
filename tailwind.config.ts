@@ -11,9 +11,7 @@ const config: Config = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
-  options: {
-    safelist: ['left_corner', 'right_corner'],
-  },
+  
   theme: {
     extend: {
       colors: {
