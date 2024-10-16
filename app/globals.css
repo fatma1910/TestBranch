@@ -138,32 +138,13 @@ body {
   }
 
   .right_corner {
-    width: 228px;
-    height: 228px;
-    top: -57px;
-    right: -40px;
-    gap: 0px;
-    border-radius: 555px 555px 0px 555px;
-    opacity: 0px;
-    transform: rotate(-180deg);
-    background-color: #A6CA44;
-    z-index: -5;
-    position: absolute;
+    @apply absolute w-[228px] h-[228px] top-[-57px] right-[-40px] rounded-[555px_555px_0px_555px] opacity-0 rotate-[-180deg] bg-[#A6CA44] z-[-5];
   }
+  
   .left_corner {
-    width: 228px;
-    height: 228px;
-    top: 0%;
-    left: -76px;
-    gap: 0px;
-    border-radius: 555px 555px 0px 555px;
-    opacity: 0px;
-    transform: rotate(-90deg);
-    background-color: #3F7DDB;
-    z-index: -5;
-    position: absolute;
-
+    @apply absolute w-[228px] h-[228px] top-0 left-[-76px] rounded-[555px_555px_0px_555px] opacity-0 rotate-[-90deg] bg-[#3F7DDB] z-[-5];
   }
+  
 }
 
 
