@@ -18,7 +18,7 @@ const Contacts = () => {
       </div>
 
 
-      <div className='relative w-[414px] h-[412px]'>
+      <div className='relative w-[314px]  md:w-[414px] h-[412px]'>
 
         <Image
           src='/contactUs.png'
@@ -33,7 +33,7 @@ const Contacts = () => {
         ></div>
         <div className='z-20 absolute py-6 px-8 text-white flex flex-col justify-between h-full '>
           <div className='flex-col flex gap-5'>
-            <h4 className='text-[30px] leading-8 font-semibold '>
+            <h4 className='md:text-[30px] text-[25px] leading-8 font-semibold '>
             Direct reach us at
             </h4>
             <div className='flex gap-3 items-center'>

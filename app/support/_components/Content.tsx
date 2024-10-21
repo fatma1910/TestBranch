@@ -27,7 +27,7 @@ const Content = ({ searchTerm }: { searchTerm: string }) => {
         .filter(category => category.items.length > 0);
 
     return (
-        <div className='flex flex-col items-center justify-center'>
+        <div className='flex flex-col items-center justify-center px-4'>
         <div className='w-full max-w-[846px] mx-4 sm:mx-10 xl:mx-[297px] mt-16 mb-32 gap-6'>
             <h3 className='font-medium text-[28px] sm:text-[36px] leading-10 text-left mb-8'>Topics</h3>
 

@@ -3,7 +3,7 @@ import Image from "next/image";
 const OurMission = () => {
   return (
     <div>
-        <div className="md:px-[82px] px-16 py-[84px] flex flex-row-reverse justify-between items-center ">
+        <div className="md:px-[82px] px-4 py-[84px] flex flex-row-reverse justify-between items-center ">
         <div className="lg:max-w-[544px] overflow-hidden">
 
             <h1 className="md:text-[58px] text-[45px] font-semibold md:leading-[64px] leading-[45px] mb-2">Our<span className="text-main"> Mission</span> </h1>
