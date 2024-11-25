@@ -50,9 +50,12 @@ const Header = () => {
 
       {isMobileMenuOpen && (
         <nav className='flex flex-col gap-4 mt-4 lg:hidden'>
-          <Link href='/' className='text-main'>Home</Link>
-          <Link href='/'>Features and Pricing</Link>
-          <Link href='/contact-us'>Contact us</Link>
+          {headerLinks.map((link,index)=> {
+        return(
+          <Link
+          className={`${link.path === pathname && 'text-main'}`}
+          href={link.path} key={index}> {link.name} </Link>)
+        })}
           <div className='flex flex-col gap-2 items-center'>
             <button className='w-full py-2 border-[#3F7DDB] border text-[#3F7DDB] rounded-full transition duration-300'> <Link href='/sign-in'>Log in</Link> </button>
             <button className='w-full py-2 border-main border text-white bg-main rounded-full transition duration-300'> <Link href='/sign-up'>Sign up</Link> </button>
